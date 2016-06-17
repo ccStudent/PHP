@@ -48,7 +48,7 @@
             $errName = "Bitte geben Sie Ihren Namen ein";
         }
         if(empty($_POST['email'])){$fehler++;
-            $errEmail = "Bitte geben Sie ihre E-Mail Adress ein";
+            $errEmail = "Bitte geben Sie ihre E-Mail Adresse ein";
         }
         if(empty($_POST['thema'])){$fehler++;
             $errThema = "Bitte wählen Sie 1 oder mehrere Themen<br>";
